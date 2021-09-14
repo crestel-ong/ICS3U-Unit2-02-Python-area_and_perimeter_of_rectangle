@@ -13,8 +13,8 @@ def main():
     width = int(input("Enter width of the rectangle (mm): "))
 
     # process
-    area = width * length
-    perimeter = 2 * (width + length)
+    area = length * width
+    perimeter = 2 * (length + width)
 
     # output
     print("")
