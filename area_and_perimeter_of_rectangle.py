@@ -7,15 +7,15 @@
 
 def main():
     # this function calculates the area and perimeter of a rectangle
-    
+
     # input
-    length = int(input("Enter length of rectangle (mm): "))
-    width = int(input("Enter width of rectangle (mm): "))
+    length = int(input("Enter length of the rectangle (mm): "))
+    width = int(input("Enter width of the rectangle (mm): "))
 
     # process
-    area = width * length
+    area = length * width
     perimeter = 2 * (length + width)
-
+    
     # output
     print("")
     print("Area is {0} mm².".format(area))
