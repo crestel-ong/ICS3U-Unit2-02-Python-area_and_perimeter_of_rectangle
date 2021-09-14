@@ -15,11 +15,11 @@ def main():
     # process
     area = width * length
     perimeter = 2 * (length + width)
-    
+
     # output
     print("")
-    print("Area is {0}mm².".format(area))
-    print("Perimeter is {0}mm.".format(perimeter))
+    print("Area is {0} mm².".format(area))
+    print("Perimeter is {0} mm.".format(perimeter))
     print("")
     print("Done.")
 
