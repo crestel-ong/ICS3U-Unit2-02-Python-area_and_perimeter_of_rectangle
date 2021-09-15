@@ -5,6 +5,7 @@
 # This program calculates the area and perimeter of a rectangle
 #    with length and width inputted from the user
 
+
 def main():
     # this function calculates the area and perimeter of a rectangle
 
